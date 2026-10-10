@@ -17,7 +17,9 @@ skill/
 ├─ 04-桌面与系统交互/
 ├─ 05-Hermes自身配置/
 ├─ 06-通信与社交/
-└─ _audit/                本机三端技能全景盘点（非发布内容，仅供维护参考）
+├─ THIRD-PARTY-LICENSES/  第三方技能的许可原文（MIT / Apache-2.0 要求保留）
+├─ scripts/sync.ps1       从本机 cc-switch 技能库同步回来（含脱敏与行尾归一）
+├─ _audit/                本机三端技能全景盘点（非发布内容，仅供维护参考）
 ```
 
 ## 技能清单
@@ -107,6 +109,22 @@ IM 群聊自动化
 
 ## 来源与许可
 
-见 [`_sources.md`](_sources.md)。本仓库收录的技能并非全部为原创，其中部分可能来自第三方上游，
-发布前请核对——MIT 许可仅覆盖原创部分，第三方内容遵循其各自许可。
+本仓库收录的技能**并非全部为原创**：
+
+- 逐条来源标注见 [`_sources.md`](_sources.md)
+- 第三方许可原文见 [`THIRD-PARTY-LICENSES/`](THIRD-PARTY-LICENSES/README.md)
+- 每个第三方技能目录下另有 `NOTICE.md` 说明上游与许可
+
+MIT 许可（见 [`LICENSE`](LICENSE)）仅覆盖原创部分；第三方内容遵循其各自许可。
+
+## 维护
+
+```powershell
+# 从本机 cc-switch 技能库同步技能到本仓库的分类目录
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync.ps1
+git status        # 人工确认后再提交
+```
+
+同步脚本只覆盖同名文件、不删除内容（`NOTICE.md` 与你的自有改动会保留），
+并在结束时校验敏感信息是否清干净，未清干净会直接报错退出。
 

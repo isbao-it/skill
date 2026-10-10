@@ -1,0 +1,67 @@
+{
+  "sourceRoot": ".cc-switch/skills",
+  "categories": {
+    "01-流水线工程流程": [
+      "dev-pipeline",
+      "dev-pipeline-governance",
+      "development-workflow",
+      "cli-worker-dispatch",
+      "task-card-authoring-and-audit",
+      "local-dev-harness"
+    ],
+    "02-编码规范与质量": [
+      "andrej-karpathy-skill",
+      "ponytail",
+      "ponytail-review",
+      "ponytail-audit",
+      "ponytail-debt",
+      "ponytail-gain",
+      "ponytail-help",
+      "dogfood"
+    ],
+    "03-设计与界面": [
+      "impeccable",
+      "ui-ux-pro-max",
+      "gpt-taste",
+      "clone-ui"
+    ],
+    "04-桌面与系统交互": [
+      "computer-use"
+    ],
+    "05-Hermes自身配置": [
+      "hermes-desktop-plugins",
+      "hermes-themes",
+      "memory"
+    ],
+    "06-通信与社交": [
+      "yuanbao"
+    ]
+  },
+  "scrub": [
+    [
+      "朱柏缘",
+      "<user>"
+    ]
+  ],
+  "textExtensions": [
+    ".md",
+    ".py",
+    ".json",
+    ".sh",
+    ".csv",
+    ".yml",
+    ".yaml",
+    ".toml",
+    ".txt",
+    ".ps1",
+    ".js",
+    ".ts",
+    ".html",
+    ".css",
+    ".cmd"
+  ],
+  "neverDelete": [
+    "NOTICE.md"
+  ],
+  "note": "同步源：cc-switch 中央技能库。脚本只覆盖同名文件，不删除目标目录里的额外文件（如 NOTICE.md）。"
+}
