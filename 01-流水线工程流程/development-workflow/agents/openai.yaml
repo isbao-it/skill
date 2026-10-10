@@ -1,0 +1,7 @@
+interface:
+  display_name: "Development Workflow"
+  short_description: "按开发流水线执行需求、架构、测试与审核闭环"
+  default_prompt: "使用 $development-workflow 按开发自动化流水线处理这个需求：先读取规则和任务卡，再规划、实现、验证并输出审核结果。"
+
+policy:
+  allow_implicit_invocation: true

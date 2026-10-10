@@ -1,0 +1,2142 @@
+{
+ "generated": "2026-10-10 09:34",
+ "roots": {
+  "hermes": "C:/Users/<user>/AppData/Local/hermes/skills",
+  "claude": "C:/Users/<user>/.claude/skills",
+  "codex": "C:/Users/<user>/.codex/skills",
+  "cc-switch": "C:/Users/<user>/.cc-switch/skills"
+ },
+ "total": 126,
+ "skills": [
+  {
+   "id": "cli-worker-dispatch",
+   "name": "cli-worker-dispatch",
+   "desc": "Dispatch CLI coding agents as workers and verify output.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/cli-worker-dispatch/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/cli-worker-dispatch/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "dev-pipeline",
+   "name": "dev-pipeline",
+   "desc": "软件开发自动化流水线 — Hermes 做架构师/PM，Claude Code 做程序员，你做决策者",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/dev-pipeline/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/dev-pipeline/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "dev-pipeline-governance",
+   "name": "dev-pipeline-governance",
+   "desc": "Use when changing or following the user's dev pipeline.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "hermes"
+   ],
+   "link": {
+    "hermes": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/dev-pipeline-governance/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/dev-pipeline-governance/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "development-workflow",
+   "name": "development-workflow",
+   "desc": "按需求、架构、任务卡、测试和人工审核闭环执行软件开发任务，适用于新功能、重构、Bug 修复和项目初始化。",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/development-workflow/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/development-workflow/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "local-dev-harness",
+   "name": "local-dev-harness",
+   "desc": "Use when launching a local dev stack or switching its LLM provider config.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "hermes"
+   ],
+   "link": {
+    "hermes": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/local-dev-harness/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/local-dev-harness/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "ponytail",
+   "name": "ponytail",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ponytail/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ponytail/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "ponytail-audit",
+   "name": "ponytail-audit",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ponytail-audit/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ponytail-audit/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "ponytail-debt",
+   "name": "ponytail-debt",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ponytail-debt/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ponytail-debt/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "ponytail-gain",
+   "name": "ponytail-gain",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ponytail-gain/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ponytail-gain/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "ponytail-help",
+   "name": "ponytail-help",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ponytail-help/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ponytail-help/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "ponytail-review",
+   "name": "ponytail-review",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ponytail-review/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ponytail-review/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "task-card-authoring-and-audit",
+   "name": "task-card-authoring-and-audit",
+   "desc": "Use when authoring or auditing task/test cards.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "hermes"
+   ],
+   "link": {
+    "hermes": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/task-card-authoring-and-audit/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/task-card-authoring-and-audit/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "autonomous-ai-agents/claude-code",
+   "name": "claude-code",
+   "desc": "Delegate coding to Claude Code CLI (features, PRs).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/claude-code/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/claude-code/SKILL.md",
+   "cat": "02-agent",
+   "catname": "Agent 编排 / CLI 委托"
+  },
+  {
+   "id": "autonomous-ai-agents/codex",
+   "name": "codex",
+   "desc": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/codex/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/codex/SKILL.md",
+   "cat": "02-agent",
+   "catname": "Agent 编排 / CLI 委托"
+  },
+  {
+   "id": "autonomous-ai-agents/hermes-agent",
+   "name": "hermes-agent",
+   "desc": "Use, configure, theme, extend, and orchestrate Hermes Agent.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+   "cat": "02-agent",
+   "catname": "Agent 编排 / CLI 委托"
+  },
+  {
+   "id": "autonomous-ai-agents/hermes-hook-guardrails",
+   "name": "hermes-hook-guardrails",
+   "desc": "Use when the user wants Hermes behavior enforced via hooks.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/hermes-hook-guardrails/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/hermes-hook-guardrails/SKILL.md",
+   "cat": "02-agent",
+   "catname": "Agent 编排 / CLI 委托"
+  },
+  {
+   "id": "autonomous-ai-agents/opencode",
+   "name": "opencode",
+   "desc": "Delegate coding to OpenCode CLI (features, PR review).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/opencode/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/opencode/SKILL.md",
+   "cat": "02-agent",
+   "catname": "Agent 编排 / CLI 委托"
+  },
+  {
+   "id": "andrej-karpathy-skill",
+   "name": "andrej-karpathy-skill",
+   "desc": "Apply Andrej Karpathy-inspired coding-agent guidelines in Codex. Use when writing, reviewing, debugging, or refactoring code to surface assumptions, avoid overengineering, keep edits surgical, and define verifiable success criteria.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/andrej-karpathy-skill/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/andrej-karpathy-skill/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "dogfood",
+   "name": "dogfood",
+   "desc": "Exploratory QA of web apps: find bugs, evidence, reports.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/dogfood/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/dogfood/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/codebase-inspection",
+   "name": "codebase-inspection",
+   "desc": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/codebase-inspection/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/codebase-inspection/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/dogfood",
+   "name": "dogfood",
+   "desc": "Exploratory QA of web apps: find bugs, evidence, reports.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/dogfood/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/dogfood/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/node-inspect-debugger",
+   "name": "node-inspect-debugger",
+   "desc": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/node-inspect-debugger/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/node-inspect-debugger/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/python-debugpy",
+   "name": "python-debugpy",
+   "desc": "Debug Python: pdb REPL + debugpy remote (DAP).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/python-debugpy/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/python-debugpy/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/requesting-code-review",
+   "name": "requesting-code-review",
+   "desc": "Pre-commit review: security scan, quality gates, auto-fix.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/requesting-code-review/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/requesting-code-review/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/simplify-code",
+   "name": "simplify-code",
+   "desc": "Parallel 4-agent cleanup of recent code changes.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/simplify-code/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/simplify-code/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/systematic-debugging",
+   "name": "systematic-debugging",
+   "desc": "4-phase root cause debugging: understand bugs before fixing.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/systematic-debugging/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/systematic-debugging/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "software-development/test-driven-development",
+   "name": "test-driven-development",
+   "desc": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/test-driven-development/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/test-driven-development/SKILL.md",
+   "cat": "03-coding",
+   "catname": "编码 / 调试 / 代码质量"
+  },
+  {
+   "id": "github/github-auth",
+   "name": "github-auth",
+   "desc": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-auth/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-auth/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "github/github-code-review",
+   "name": "github-code-review",
+   "desc": "Review PRs: diffs, inline comments via gh or REST.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-code-review/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-code-review/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "github/github-issue-to-pr",
+   "name": "github-issue-to-pr",
+   "desc": "Carry a GitHub issue to a verified PR with honest CI state.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-issue-to-pr/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-issue-to-pr/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "github/github-issues",
+   "name": "github-issues",
+   "desc": "Create, triage, label, assign GitHub issues via gh or REST.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-issues/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-issues/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "github/github-pr-workflow",
+   "name": "github-pr-workflow",
+   "desc": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-pr-workflow/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-pr-workflow/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "github/github-repo-management",
+   "name": "github-repo-management",
+   "desc": "Clone/create/fork repos; manage remotes, releases.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-repo-management/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/github-repo-management/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "github/repo-secret-audit",
+   "name": "repo-secret-audit",
+   "desc": "Audit a git repo for leaked secrets, then scrub and re-push.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/github/repo-secret-audit/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/github/repo-secret-audit/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "software-development/github",
+   "name": "github",
+   "desc": "GitHub via gh CLI: PRs, issues, reviews, repos, auth.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/github/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/github/SKILL.md",
+   "cat": "04-github",
+   "catname": "GitHub / 代码托管"
+  },
+  {
+   "id": "clone-ui",
+   "name": "clone-ui",
+   "desc": "Pixel-faithful clone of any web UI into the user's existing stack, using whatever sources are available — a screenshot alone, a live URL, raw HTML/CSS, or any combination. Use this skill whenever the user wants to recreate, match, replicate, or \"clone\" a design from a screenshot, image, URL, Figma export, or HTML dump. Trigger on phrases like \"clone this\", \"match this design\", \"build this from screenshot\", \"recreate this page\", \"make it look like this\", \"rebuild this UI\", \"copy this layout\", or any time the user provides a visual reference and asks for a faithful implementation. Do not undertrigger — even if the user just drops a screenshot without explicit phrasing, this skill applies.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/clone-ui/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/clone-ui/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/architecture-diagram",
+   "name": "architecture-diagram",
+   "desc": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/architecture-diagram/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/architecture-diagram/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/baoyu-infographic",
+   "name": "baoyu-infographic",
+   "desc": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/baoyu-infographic/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/baoyu-infographic/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/claude-design",
+   "name": "claude-design",
+   "desc": "Design one-off HTML artifacts (landing, deck, prototype).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/claude-design/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/claude-design/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/design-md",
+   "name": "design-md",
+   "desc": "Author/validate/export Google's DESIGN.md token spec files.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/design-md/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/design-md/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/excalidraw",
+   "name": "excalidraw",
+   "desc": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/excalidraw/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/excalidraw/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/popular-web-designs",
+   "name": "popular-web-designs",
+   "desc": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/popular-web-designs/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/popular-web-designs/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/sketch",
+   "name": "sketch",
+   "desc": "Throwaway HTML mockups: 2-3 design variants to compare.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/sketch/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/sketch/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "gpt-taste",
+   "name": "gpt-taste",
+   "desc": "Elite UX/UI & GSAP Motion Engineer. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "codex"
+   ],
+   "link": {
+    "codex": false,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/.codex/skills/gpt-taste/SKILL.md",
+   "real": "C:/Users/<user>/.codex/skills/gpt-taste/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "impeccable",
+   "name": "impeccable",
+   "desc": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/impeccable/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/impeccable/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "ui-ux-pro-max",
+   "name": "ui-ux-pro-max",
+   "desc": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 79 searchable styles (50 active), 192 product palettes and reasoning profiles, 74 font pairings, 119 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/ui-ux-pro-max/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/ui-ux-pro-max/SKILL.md",
+   "cat": "05-design",
+   "catname": "设计 / UI/UX"
+  },
+  {
+   "id": "creative/ascii-art",
+   "name": "ascii-art",
+   "desc": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/ascii-art/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/ascii-art/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/ascii-video",
+   "name": "ascii-video",
+   "desc": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/ascii-video/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/ascii-video/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/comfyui",
+   "name": "comfyui",
+   "desc": "Generate images, video, and audio via diffusion workflows.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/comfyui/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/comfyui/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/humanizer",
+   "name": "humanizer",
+   "desc": "Humanize text: strip AI-isms and add real voice.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/humanizer/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/humanizer/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/manim-video",
+   "name": "manim-video",
+   "desc": "Manim CE animations: 3Blue1Brown math/algo videos.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/manim-video/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/manim-video/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/p5js",
+   "name": "p5js",
+   "desc": "p5.js sketches: gen art, shaders, interactive, 3D.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/p5js/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/p5js/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/pretext",
+   "name": "pretext",
+   "desc": "Build creative browser demos with DOM-free text layout.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/pretext/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/pretext/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/songwriting-and-ai-music",
+   "name": "songwriting-and-ai-music",
+   "desc": "Songwriting craft and Suno AI music prompts.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/songwriting-and-ai-music/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/songwriting-and-ai-music/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "creative/touchdesigner-mcp",
+   "name": "touchdesigner-mcp",
+   "desc": "Control TouchDesigner via twozero MCP.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/creative/touchdesigner-mcp/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/creative/touchdesigner-mcp/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "media/gif-search",
+   "name": "gif-search",
+   "desc": "Search/download GIFs from Tenor via curl + jq.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/media/gif-search/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/media/gif-search/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "media/heartmula",
+   "name": "heartmula",
+   "desc": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/media/heartmula/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/media/heartmula/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "media/local-asr-transcription",
+   "name": "local-asr-transcription",
+   "desc": "本地 ASR（faster-whisper）流水线：VAD 语义、错误码映射、繁简规范化、真素材验收。",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/media/local-asr-transcription/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/media/local-asr-transcription/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "media/songsee",
+   "name": "songsee",
+   "desc": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/media/songsee/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/media/songsee/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "media/youtube-content",
+   "name": "youtube-content",
+   "desc": "YouTube transcripts to summaries, threads, blogs.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/media/youtube-content/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/media/youtube-content/SKILL.md",
+   "cat": "06-creative",
+   "catname": "创意 / 媒体生成"
+  },
+  {
+   "id": "productivity/airtable",
+   "name": "airtable",
+   "desc": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/airtable/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/airtable/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/box",
+   "name": "box",
+   "desc": "Box manages cloud files, sharing, search, and metadata.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/box/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/box/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/document-to-action-items",
+   "name": "document-to-action-items",
+   "desc": "Extract cited obligations, deadlines, tasks from documents.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/document-to-action-items/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/document-to-action-items/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/docx",
+   "name": "docx",
+   "desc": "Create, read, edit, template, and review Word .docx files.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/docx/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/docx/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/google-workspace",
+   "name": "google-workspace",
+   "desc": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/google-workspace/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/google-workspace/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/maps",
+   "name": "maps",
+   "desc": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/maps/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/maps/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/meeting-action-items",
+   "name": "meeting-action-items",
+   "desc": "Turn meeting notes into cited decisions, owners, tickets.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/meeting-action-items/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/meeting-action-items/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/nano-pdf",
+   "name": "nano-pdf",
+   "desc": "Edit text in existing PDFs via natural-language prompts.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/nano-pdf/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/nano-pdf/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/notion",
+   "name": "notion",
+   "desc": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/notion/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/notion/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/ocr-and-documents",
+   "name": "ocr-and-documents",
+   "desc": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/ocr-and-documents/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/ocr-and-documents/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/pdf",
+   "name": "pdf",
+   "desc": "PDF files: create, read, merge, fill, OCR, edit text.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/pdf/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/pdf/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/powerpoint",
+   "name": "powerpoint",
+   "desc": "Create, read, edit .pptx decks with python-pptx.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/powerpoint/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/powerpoint/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/teams-meeting-pipeline",
+   "name": "teams-meeting-pipeline",
+   "desc": "Teams meeting summaries, job replay, Graph subscriptions.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/teams-meeting-pipeline/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/teams-meeting-pipeline/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/weekly-review-planning",
+   "name": "weekly-review-planning",
+   "desc": "Weekly reset: commitments, stalled work, next-week plan.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/weekly-review-planning/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/weekly-review-planning/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "productivity/xlsx",
+   "name": "xlsx",
+   "desc": "Create, read, edit Excel .xlsx workbooks and CSVs.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/xlsx/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/xlsx/SKILL.md",
+   "cat": "07-office",
+   "catname": "文档 / 办公 / 生产力"
+  },
+  {
+   "id": "data-collection/github-trending-report",
+   "name": "github-trending-report",
+   "desc": "Generate curated daily GitHub trending project reports in Chinese. Covers the GitHub Search API fallback technique when the trending page is inaccessible, priority-based curation, and structured Chinese output format.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/data-collection/github-trending-report/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/data-collection/github-trending-report/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "data-collection/platform-risk-control-response",
+   "name": "platform-risk-control-response",
+   "desc": "Use when a scraper is blocked by platform risk control.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/data-collection/platform-risk-control-response/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/data-collection/platform-risk-control-response/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "productivity/product-price-monitor",
+   "name": "product-price-monitor",
+   "desc": "Watch product, flight, or listing prices; alert on target.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/product-price-monitor/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/product-price-monitor/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/arxiv",
+   "name": "arxiv",
+   "desc": "Search arXiv papers by keyword, author, category, or ID.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/arxiv/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/arxiv/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/blogwatcher",
+   "name": "blogwatcher",
+   "desc": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/blogwatcher/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/blogwatcher/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/competitor-news-monitor",
+   "name": "competitor-news-monitor",
+   "desc": "Watch named companies for material news; cited digests.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/competitor-news-monitor/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/competitor-news-monitor/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/grounded-citations",
+   "name": "grounded-citations",
+   "desc": "Ground answers and documents in cited, verifiable sources.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/grounded-citations/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/grounded-citations/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/llm-wiki",
+   "name": "llm-wiki",
+   "desc": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/llm-wiki/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/llm-wiki/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/polymarket",
+   "name": "polymarket",
+   "desc": "Query Polymarket: markets, prices, orderbooks, history.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/polymarket/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/polymarket/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "research/research-paper-writing",
+   "name": "research-paper-writing",
+   "desc": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/research/research-paper-writing/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/research/research-paper-writing/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "web/blocked-page-recovery",
+   "name": "blocked-page-recovery",
+   "desc": "Use when a fetch fails: 403/429, paywall, WAF, bot wall.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/web/blocked-page-recovery/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/web/blocked-page-recovery/SKILL.md",
+   "cat": "08-research",
+   "catname": "研究 / 信息采集 / 监控"
+  },
+  {
+   "id": "data-science/jupyter-live-kernel",
+   "name": "jupyter-live-kernel",
+   "desc": "Iterative Python via live Jupyter kernel (hamelnb).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/data-science/jupyter-live-kernel/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/data-science/jupyter-live-kernel/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/evaluation/evaluating-llms-harness",
+   "name": "evaluating-llms-harness",
+   "desc": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/evaluation/evaluating-llms-harness/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/evaluation/evaluating-llms-harness/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/evaluation/weights-and-biases",
+   "name": "weights-and-biases",
+   "desc": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/evaluation/weights-and-biases/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/evaluation/weights-and-biases/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/huggingface-hub",
+   "name": "huggingface-hub",
+   "desc": "HuggingFace hf CLI: search/download/upload models, datasets.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/huggingface-hub/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/huggingface-hub/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/inference/llama-cpp",
+   "name": "llama-cpp",
+   "desc": "llama.cpp local GGUF inference + HF Hub model discovery.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/inference/llama-cpp/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/inference/llama-cpp/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/inference/serving-llms-vllm",
+   "name": "serving-llms-vllm",
+   "desc": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/inference/serving-llms-vllm/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/inference/serving-llms-vllm/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/models/audiocraft",
+   "name": "audiocraft",
+   "desc": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/models/audiocraft/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/models/audiocraft/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/models/segment-anything",
+   "name": "segment-anything",
+   "desc": "SAM: zero-shot image segmentation via points, boxes, masks.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/models/segment-anything/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/models/segment-anything/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "mlops/ollama-local-llm",
+   "name": "ollama-local-llm",
+   "desc": "Set up a local LLM with Ollama.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/ollama-local-llm/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/mlops/ollama-local-llm/SKILL.md",
+   "cat": "09-mlops",
+   "catname": "AI 基建 / MLOps / 数据科学"
+  },
+  {
+   "id": "email/email-inbox-triage",
+   "name": "email-inbox-triage",
+   "desc": "Triage an inbox: prioritize threads, draft replies safely.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/email/email-inbox-triage/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/email/email-inbox-triage/SKILL.md",
+   "cat": "10-comm",
+   "catname": "通信 / 社交"
+  },
+  {
+   "id": "email/himalaya",
+   "name": "himalaya",
+   "desc": "Himalaya CLI: IMAP/SMTP email from terminal.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/email/himalaya/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/email/himalaya/SKILL.md",
+   "cat": "10-comm",
+   "catname": "通信 / 社交"
+  },
+  {
+   "id": "social-media/xurl",
+   "name": "xurl",
+   "desc": "X/Twitter via xurl CLI: raw post search, posting, DM, media.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/social-media/xurl/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/social-media/xurl/SKILL.md",
+   "cat": "10-comm",
+   "catname": "通信 / 社交"
+  },
+  {
+   "id": "yuanbao",
+   "name": "yuanbao",
+   "desc": "Yuanbao (元宝) groups: @mention users, query info/members.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/yuanbao/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/yuanbao/SKILL.md",
+   "cat": "10-comm",
+   "catname": "通信 / 社交"
+  },
+  {
+   "id": "apple/apple-notes",
+   "name": "apple-notes",
+   "desc": "Manage Apple Notes via memo CLI: create, search, edit.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/apple/apple-notes/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/apple/apple-notes/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "apple/apple-reminders",
+   "name": "apple-reminders",
+   "desc": "Apple Reminders via remindctl: add, list, complete.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/apple/apple-reminders/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/apple/apple-reminders/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "apple/findmy",
+   "name": "findmy",
+   "desc": "Track Apple devices/AirTags via FindMy.app on macOS.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/apple/findmy/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/apple/findmy/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "apple/imessage",
+   "name": "imessage",
+   "desc": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/apple/imessage/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/apple/imessage/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "computer-use",
+   "name": "computer-use",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/computer-use/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/computer-use/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "security/windows-endpoint-triage",
+   "name": "windows-endpoint-triage",
+   "desc": "Use when a Windows popup or process may be malware.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/security/windows-endpoint-triage/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/security/windows-endpoint-triage/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "smart-home/openhue",
+   "name": "openhue",
+   "desc": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/smart-home/openhue/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/smart-home/openhue/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "hermes-desktop-plugins",
+   "name": "hermes-desktop-plugins",
+   "desc": "Write desktop app plugins that add UI panes and commands.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/hermes-desktop-plugins/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/hermes-desktop-plugins/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "hermes-plugin-management",
+   "name": "hermes-plugin-management",
+   "desc": "Use when installing a Hermes plugin from a repo or URL.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/hermes-plugin-management/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/hermes-plugin-management/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "hermes-themes",
+   "name": "hermes-themes",
+   "desc": "Author a Hermes color theme that skins every surface.",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/hermes-themes/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/hermes-themes/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "memory",
+   "name": "memory",
+   "desc": "",
+   "category": "",
+   "tools": [
+    "cc-switch",
+    "claude",
+    "codex",
+    "hermes"
+   ],
+   "link": {
+    "hermes": true,
+    "claude": true,
+    "codex": true,
+    "cc-switch": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/memory/SKILL.md",
+   "real": "C:/Users/<user>/.cc-switch/skills/memory/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "note-taking/obsidian",
+   "name": "obsidian",
+   "desc": "Read, search, create, and edit notes in the Obsidian vault.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/note-taking/obsidian/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/note-taking/obsidian/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "productivity/petdex",
+   "name": "petdex",
+   "desc": "Install and select animated petdex mascots for Hermes.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/petdex/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/petdex/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "productivity/session-librarian",
+   "name": "session-librarian",
+   "desc": "Organize sessions by prompt: find, rename, archive, prune.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/session-librarian/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/session-librarian/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "productivity/tui-widgets",
+   "name": "tui-widgets",
+   "desc": "Author live widget apps for the Hermes TUI dock.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/tui-widgets/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/productivity/tui-widgets/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "software-development/hermes-agent-skill-authoring",
+   "name": "hermes-agent-skill-authoring",
+   "desc": "Author in-repo SKILL.md files: frontmatter and structure.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "software-development/inspecting-hermes-desktop-dom",
+   "name": "inspecting-hermes-desktop-dom",
+   "desc": "Read the live Hermes desktop DOM/CSS over CDP.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/inspecting-hermes-desktop-dom/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/inspecting-hermes-desktop-dom/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "software-development/windows-hermes",
+   "name": "windows-hermes",
+   "desc": "Windows-specific Hermes Agent quirks, workarounds, and tool-usage patterns — Chinese-character home directories, terminal tool fixes, filesystem differences, and other Win32 vs POSIX surprises not covered by the bundled hermes-agent skill.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/windows-hermes/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/windows-hermes/SKILL.md",
+   "cat": "12-hermes",
+   "catname": "Hermes 自身配置 / 扩展"
+  },
+  {
+   "id": "autonomous-ai-agents/computer-use",
+   "name": "computer-use",
+   "desc": "Drive the desktop background-first; escalate on signal.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/computer-use/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/computer-use/SKILL.md",
+   "cat": "11-system",
+   "catname": "系统 / 桌面 / 安全 / 智能家居"
+  },
+  {
+   "id": "autonomous-ai-agents/merge-reconciler",
+   "name": "merge-reconciler",
+   "desc": "Neutral third-party resolution of agent merge conflicts.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/merge-reconciler/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/autonomous-ai-agents/merge-reconciler/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "devops/sdlc-review",
+   "name": "sdlc-review",
+   "desc": "Review Kanban handoffs and route verified outcomes.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/devops/sdlc-review/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/devops/sdlc-review/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "software-development/architecture-design",
+   "name": "architecture-design",
+   "desc": "How to write architecture/design documents that this user will approve — quality checklist, depth standards, pitfalls.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/architecture-design/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/architecture-design/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "software-development/delegated-output-verification",
+   "name": "delegated-output-verification",
+   "desc": "Verify a delegated coding agent's output before merging.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/delegated-output-verification/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/delegated-output-verification/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "software-development/plan",
+   "name": "plan",
+   "desc": "Write a markdown plan to .hermes/plans/; no execution.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/plan/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/plan/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "software-development/spike",
+   "name": "spike",
+   "desc": "Throwaway experiments to validate an idea before build.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/spike/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/spike/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "software-development/vault-agent-pipeline",
+   "name": "vault-agent-pipeline",
+   "desc": "Orchestrate multi-agent tasks using an Obsidian vault as a shared task bus — Hermes dispatches task cards → Claude Code executes → outputs land for review → archive.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/vault-agent-pipeline/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/vault-agent-pipeline/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  },
+  {
+   "id": "software-development/workspace-cleanup",
+   "name": "workspace-cleanup",
+   "desc": "Use when a workspace is messy: relocate, never delete.",
+   "category": "",
+   "tools": [
+    "hermes"
+   ],
+   "link": {
+    "hermes": false
+   },
+   "path": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/workspace-cleanup/SKILL.md",
+   "real": "C:/Users/<user>/AppData/Local/hermes/skills/software-development/workspace-cleanup/SKILL.md",
+   "cat": "01-pipeline",
+   "catname": "流水线 / 工程流程"
+  }
+ ]
+}

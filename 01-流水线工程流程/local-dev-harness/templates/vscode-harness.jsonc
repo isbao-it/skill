@@ -1,0 +1,105 @@
+// 本地前后端一键启动模板（VSCode）。复制到项目 .vscode/ 下拆成三个文件，按项目实际命令改。
+// 本模板已在 Windows + FastAPI(uvicorn) + Vue3/Vite 项目上验证可用。
+// 关键点：
+//  1) 任务用 type=shell + isBackground + 带 endsPattern 的 problemMatcher，VSCode 才不会报“不是后台任务”
+//  2) 用 compound 任务（dependsOn）做“一键起全部”
+//  3) 路径用正斜杠，避开 Windows 反射杠转义
+//  4) 解释器指项目 venv，不依赖 PATH
+
+// ============ .vscode/tasks.json ============
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "后端 · uvicorn 8012",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8012",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": [{ "regexp": "^$" }],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*",
+          "endsPattern": "Uvicorn running|Application startup complete"
+        }
+      },
+      "presentation": { "panel": "dedicated", "group": "dev", "clear": true },
+      "detail": "起后端 API；本地配置（如 .env）由仓库根提供，不在任务里写任何密钥"
+    },
+    {
+      "label": "前端 · vite dev 5173",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": [{ "regexp": "^$" }],
+        "background": { "activeOnStart": true, "beginsPattern": ".*", "endsPattern": "Local:.*" }
+      },
+      "presentation": { "panel": "dedicated", "group": "dev", "clear": true }
+    },
+    {
+      "label": "启动全部（后端 + 前端）",
+      "dependsOn": ["后端 · uvicorn 8012", "前端 · vite dev 5173"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    },
+    {
+      "label": "后端 · 全量测试",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m pytest tests/",
+      "problemMatcher": []
+    },
+    {
+      "label": "前端 · 测试 + 覆盖率",
+      "type": "shell",
+      "command": "npm run test:coverage",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "problemMatcher": []
+    }
+  ]
+}
+
+// ============ .vscode/launch.json ============
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "后端 · uvicorn（调试）",
+//       "type": "debugpy",
+//       "request": "launch",
+//       "module": "uvicorn",
+//       "args": ["app.main:app", "--host", "127.0.0.1", "--port", "8012", "--reload"],
+//       "cwd": "${workspaceFolder}",
+//       "console": "integratedTerminal",
+//       "justMyCode": true
+//     },
+//     {
+//       "name": "前端 · Chrome（调试 5173）",
+//       "type": "chrome",
+//       "request": "launch",
+//       "url": "http://localhost:5173",
+//       "webRoot": "${workspaceFolder}/frontend/src"
+//     }
+//   ],
+//   "compounds": [
+//     { "name": "一起调试（后端 + 前端）", "configurations": ["后端 · uvicorn（调试）", "前端 · Chrome（调试 5173）"] }
+//   ]
+// }
+
+// ============ .vscode/settings.json ============
+// {
+//   "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+//   "python.testing.pytestEnabled": true,
+//   "python.testing.pytestArgs": ["tests"],
+//   "python.analysis.extraPaths": ["."],
+//   "files.exclude": {
+//     "**/__pycache__": true,
+//     "**/.pytest_cache": true,
+//     ".pytest_tmp*": true,
+//     "**/node_modules": true,
+//     "**/dist": true,
+//     "**/coverage": true
+//   }
+// }
